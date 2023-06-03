@@ -8,16 +8,44 @@
         body {
             text-align: center;
             font-family: cursive;
+            height: 100vh;
+            width: 100vw;
+            margin: -4px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            height: min-content;
         }
         h1 {
             margin-bottom: 16px;
+        }
+        .button {
+            height: 28px;
+            width: 90px;
+            background-color: #969696;
+            border: 1px solid black;
+            border-radius: 8px;
+            margin: auto;
+            box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+        }
+        .button:active {
+            box-shadow: none;
+        }
+        a {
+            color: #4646ba;
         }
     </style>
     <title>Well...</title>
 </head>
 <body>
-    <h1>Try it out, pal!</h1>
-    <p>You're not going to succeed...</p>
-    <a href="https://i.postimg.cc/9Q47xWkV/cookie.png">cookie.png</a>
+    <div class="container">
+        <h1>Try it out, pal!</h1>
+        <p>You're not going to succeed...</p>
+        <div class="button">
+            <a href="https://i.postimg.cc/9Q47xWkV/cookie.png">cookie.png</a>
+        </div>
+    </div>
 </body>
 </html>
